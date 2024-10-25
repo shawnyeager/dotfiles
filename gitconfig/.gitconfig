@@ -1,0 +1,21 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+[commit]
+	gpgsign = true
+[user]
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBlfy54DRQIHkd8RNy4iaoWa9cV+2p2N3LE8l32MlBMn
+	email = shawn@shawnyeager.com
+	name = Shawn Yeager
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[pull]
+	rebase = true
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[init]
+	defaultBranch = main
