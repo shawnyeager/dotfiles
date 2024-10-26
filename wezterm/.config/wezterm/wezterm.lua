@@ -35,8 +35,8 @@ return {
 	},
 
 	-- Optional: Font and size configuration (adjust to your preferences)
-	font = wezterm.font("CaskaydiaCove Nerd"), -- Or any other preferred font
-	font_size = 11.0,
+	font = wezterm.font("CaskaydiaCove Nerd Font Mono"), -- Or any other preferred font
+	font_size = 12.0,
 
 	-- Key bindings to mimic Zellij behavior
 	keys = {
