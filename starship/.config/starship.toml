@@ -4,6 +4,7 @@ format = """
 [](surface0)\
 $os\
 $username\
+$hostname\
 [](bg:peach fg:surface0)\
 $directory\
 [](fg:peach bg:green)\
@@ -99,6 +100,11 @@ style_user = "bg:surface0 fg:text"
 style_root = "bg:surface0 fg:text"
 format = '[ $user ]($style)'
 
+[hostname]
+ssh_only = true
+style = "bg:surface0 fg:text"
+format = '[@$hostname ]($style)'
+
 [directory]
 style = "fg:mantle bg:peach"
 format = "[ $path ]($style)"
@@ -188,3 +194,4 @@ vimcmd_symbol = '[](bold fg:creen)'
 vimcmd_replace_one_symbol = '[](bold fg:purple)'
 vimcmd_replace_symbol = '[](bold fg:purple)'
 vimcmd_visual_symbol = '[](bold fg:lavender)'
+
