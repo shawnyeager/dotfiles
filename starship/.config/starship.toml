@@ -103,7 +103,7 @@ format = '[ $user ]($style)'
 [hostname]
 ssh_only = true
 style = "bg:surface0 fg:text"
-format = '[@$hostname ]($style)'
+format = '[@ $hostname ]($style)'
 
 [directory]
 style = "fg:mantle bg:peach"
