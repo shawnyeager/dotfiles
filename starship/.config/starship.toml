@@ -5,6 +5,7 @@ format = """
 $os\
 $username\
 $hostname\
+[ ](bg:surface0 fg:text)\
 [](bg:peach fg:surface0)\
 $directory\
 [](fg:peach bg:green)\
@@ -98,12 +99,12 @@ RedHatEnterprise = "󱄛"
 show_always = true
 style_user = "bg:surface0 fg:text"
 style_root = "bg:surface0 fg:text"
-format = '[ $user ]($style)'
+format = '[ $user]($style)'
 
 [hostname]
 ssh_only = true
 style = "bg:surface0 fg:text"
-format = '[@ $hostname ]($style)'
+format = '[@$hostname]($style)'
 
 [directory]
 style = "fg:mantle bg:peach"
