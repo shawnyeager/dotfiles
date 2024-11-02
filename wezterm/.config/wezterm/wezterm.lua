@@ -24,7 +24,7 @@ return {
 	color_scheme = "Catppuccin Mocha",
 
 	-- Set opacity to 98%
-	window_background_opacity = 0.98,
+	window_background_opacity = 0.95,
 
 	-- Set window padding
 	window_padding = {
@@ -35,7 +35,7 @@ return {
 	},
 
 	-- Optional: Font and size configuration (adjust to your preferences)
-	font = wezterm.font("CaskaydiaCove Nerd Font Mono"), -- Or any other preferred font
+	font = wezterm.font("CaskaydiaMono Nerd Font"), -- Or any other preferred font
 	font_size = 12.0,
 
 	-- Key bindings to mimic Zellij behavior
