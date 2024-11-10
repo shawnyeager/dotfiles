@@ -30,4 +30,6 @@ alias du='gdu'
 source /home/shawn/.config/op/plugins.sh
 source <(tailscale completion bash)
 
-eval "$(starship init bash)"
+if [ -n "$SSH_TTY" ]; then
+  eval "$(starship init bash)"
+fi
