@@ -13,6 +13,7 @@ export SUDO_EDITOR="$EDITOR"
 # export PAGER="bat"
 
 PATH=$HOME/.local/bin:$PATH
+PATH=$HOME/.local/share/mise/installs/cargo-usage-cli/1.3.0/bin:$PATH
 
 alias b='${(z)BROWSER}'
 alias cat='bat'
