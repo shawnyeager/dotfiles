@@ -27,6 +27,7 @@ alias python='python3'
 alias top='htop'
 alias vim='nvim'
 alias du='gdu'
+alias colorize='ccze'
 
 source /home/shawn/.config/op/plugins.sh
 source <(tailscale completion bash)
