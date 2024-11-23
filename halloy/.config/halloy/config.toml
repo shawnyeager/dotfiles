@@ -1,0 +1,27 @@
+# Halloy config.
+#
+# For a complete list of available options,
+# please visit https://halloy.squidowl.org/configuration/index.html
+
+# Static
+theme = "Catppuccin Macchiato"
+scale_factor = 1.1
+
+# LiberaChat
+
+[servers.liberachat]
+nickname = "BTCitizen"
+server = "irc.libera.chat"
+channels = ["#archlinux", "#archlinux-offtopic", "##chat", "##ibmthinkpad", "#bitcoin", "#lightning-dev"]
+
+[servers.liberachat.sasl.external]
+cert = "/home/shawn/.config/halloy/cert.pem"
+
+# OFTC 
+
+[servers.oftc]
+nickname = "BTCitizen"
+server = "irc.oftc.net"
+
+[servers.oftc.sasl.external]
+cert = "/home/shawn/.config/halloy/cert.pem"
