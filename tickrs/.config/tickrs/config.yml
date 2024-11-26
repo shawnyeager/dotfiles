@@ -2,6 +2,7 @@
 # List of ticker symbols to start app with
 symbols:
   - BTC-USD
+  - MSTR
   - ^TNX
   - ^IXIC
   - ^DJI
@@ -25,7 +26,7 @@ symbols:
 #enable_pre_post: true
 
 # Hide help icon in top right
-#hide_help: true
+hide_help: true
 
 # Hide previous close line on 1D chart
 #hide_prev_close: true
