@@ -31,6 +31,7 @@ alias colorize='ccze'
 
 source /home/shawn/.config/op/plugins.sh
 source <(tailscale completion bash)
+eval "$(/usr/bin/mise activate bash)"
 
 if [ -n "$SSH_TTY" ]; then
   eval "$(starship init bash)"
