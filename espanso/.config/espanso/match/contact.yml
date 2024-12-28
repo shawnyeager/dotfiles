@@ -1,0 +1,32 @@
+matches:
+
+# Email addresses
+- trigger: ":eml"
+  replace: "shawn@shawnyeager.com"
+- trigger: ":weml"
+  replace: "shawn@bitvora.com"
+
+# Addresses
+- trigger: ":home"
+  replace: |
+    527 Skyview Dr
+    Nashville, TN 37204
+- trigger: ":office"
+  replace: |
+    1910 21st Ave S
+    Nashville, TN 37212
+
+# Phone
+- trigger: ":phone"
+  replace: "650-224-4372"
+- trigger: ":gphone"
+  replace: "615-398-9518"
+
+# Email signatures
+- trigger: ":sig"
+  replace: |
+    Thanks,
+    Shawn
+
+    shawnyeager.com/connect
+    shawnyeager.com/now 
