@@ -36,3 +36,7 @@ eval "$(/usr/bin/mise activate bash)"
 if [ -n "$SSH_TTY" ]; then
   eval "$(starship init bash)"
 fi
+
+echo
+fortune
+echo
