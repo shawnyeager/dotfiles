@@ -3,7 +3,7 @@ showfavourites: false
 version: ""
 feeds:
     - url: https://news.ycombinator.com/rss
-      name: HackerNews
+      name: HN
     - url: https://lwn.net/headlines/newrss
       name: LWN
     - url: http://rss.sciam.com/ScientificAmerican-Global?format=xml
@@ -13,7 +13,7 @@ feeds:
     - url: https://feedx.net/rss/ap.xml
       name: AP
     - url: https://www.nobsbitcoin.com/rss/
-      name: NBSB
+      name: NoBSB
 theme:
     glamour: dark
     titleColor: "170"
