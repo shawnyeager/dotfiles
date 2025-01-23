@@ -1,0 +1,19 @@
+configpath: /home/shawn/.config/nom/config.yml
+showfavourites: false
+version: ""
+feeds:
+    - url: https://news.ycombinator.com/rss
+      name: HackerNews
+    - url: https://lwn.net/headlines/newrss
+      name: LWN
+    - url: http://rss.sciam.com/ScientificAmerican-Global?format=xml
+      name: SciAm
+    - url: https://feeds.feedburner.com/codinghorror
+      name: Coding Horror
+theme:
+    glamour: dark
+    titleColor: "170"
+    filterColor: '#494d64'
+    selectedItemColor: "110"
+http:
+    mintls: TLS 1.2
