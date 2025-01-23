@@ -6,8 +6,6 @@ feeds:
       name: HN
     - url: https://lwn.net/headlines/newrss
       name: LWN
-    - url: http://rss.sciam.com/ScientificAmerican-Global?format=xml
-      name: SciAm
     - url: https://feeds.feedburner.com/codinghorror
       name: Coding Horror
     - url: https://feedx.net/rss/ap.xml
