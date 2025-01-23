@@ -10,6 +10,10 @@ feeds:
       name: SciAm
     - url: https://feeds.feedburner.com/codinghorror
       name: Coding Horror
+    - url: https://feedx.net/rss/ap.xml
+      name: AP
+    - url: https://www.nobsbitcoin.com/rss/
+      name: NBSB
 theme:
     glamour: dark
     titleColor: "170"
