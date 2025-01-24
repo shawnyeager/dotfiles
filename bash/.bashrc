@@ -10,7 +10,13 @@ source ~/.local/share/omakub/defaults/bash/rc
 # Editor used by CLI
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
-# export PAGER="bat"
+export PAGER="bat"
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+--color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
+--color=selected-bg:#494d64 \
+--multi"
 
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/share/mise/installs/cargo-usage-cli/1.3.0/bin:$PATH
