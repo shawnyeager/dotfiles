@@ -1,4 +1,4 @@
 [font]
-normal = { family = "PlexMonoMod", style = "Regular" }
-bold = { family = "PlexMonoMod", style = "Bold" }
-italic = { family = "PlexMonoMod", style = "Italic" }
+normal = { family = "CaskaydiaCoveNerdFont", style = "Regular" }
+bold = { family = "CaskaydiaCoveNerdFont", style = "Bold" }
+italic = { family = "CaskaydiaCoveNerdFont", style = "Italic" }
