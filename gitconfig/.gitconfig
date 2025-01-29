@@ -1,11 +1,9 @@
 [gpg]
 	format = ssh
-[gpg "ssh"]
-	program = /opt/1Password/op-ssh-sign
 [commit]
 	gpgsign = true
 [user]
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBlfy54DRQIHkd8RNy4iaoWa9cV+2p2N3LE8l32MlBMn
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBlfy54DRQIHkd8RNy4iaoWa9cV+2p2N3LE8l32MlBMn  
 	email = hello@shawnyeager.com
 	name = Shawn Yeager
 [alias]

@@ -17,6 +17,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
 --color=selected-bg:#494d64 \
 --multi"
+export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
 
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/share/mise/installs/cargo-usage-cli/1.3.0/bin:$PATH
@@ -35,7 +36,7 @@ alias vim='nvim'
 alias du='gdu'
 alias colorize='ccze'
 
-source /home/shawn/.config/op/plugins.sh
+# source /home/shawn/.config/op/plugins.sh
 source <(tailscale completion bash)
 eval "$(/usr/bin/mise activate bash)"
 
