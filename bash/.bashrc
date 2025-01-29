@@ -10,13 +10,18 @@ source ~/.local/share/omakub/defaults/bash/rc
 # Editor used by CLI
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
+
 export PAGER="bat"
+
+# Catppuccin macchiato theme
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
 --color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
 --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
 --color=selected-bg:#494d64 \
 --multi"
+
+# Bitward ssh-agent
 export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
 
 PATH=$HOME/.local/bin:$PATH
@@ -29,16 +34,16 @@ alias duf='duf -hide special'
 alias e='${(z)VISUAL:-${(z)EDITOR}}'
 alias find='fd'
 alias help='tldr'
-alias ls='eza'
 alias python='python3'
 alias top='htop'
 alias vim='nvim'
 alias du='gdu'
 alias colorize='ccze'
 
+# 1Password cli integration
 # source /home/shawn/.config/op/plugins.sh
+
 source <(tailscale completion bash)
-eval "$(/usr/bin/mise activate bash)"
 
 bind 'set completion-ignore-case on'
 
