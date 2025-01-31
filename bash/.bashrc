@@ -13,7 +13,7 @@ export SUDO_EDITOR="$EDITOR"
 
 export PAGER="bat"
 
-# Catppuccin macchiato theme
+# Catppuccin macchiato theme for fzf
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
 --color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
@@ -24,9 +24,11 @@ export FZF_DEFAULT_OPTS=" \
 # Bitward ssh-agent
 export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
 
+# Paths
 PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/.local/share/mise/installs/cargo-usage-cli/1.3.0/bin:$PATH
 
+# Aliases
 alias b='${(z)BROWSER}'
 alias cat='bat'
 alias df='ncdu'
@@ -40,14 +42,15 @@ alias vim='nvim'
 alias du='gdu'
 alias colorize='ccze'
 
-# 1Password cli integration
-# source /home/shawn/.config/op/plugins.sh
-
+# Tailscale completion
 source <(tailscale completion bash)
 
+# Ignore case when tab-completing
 bind 'set completion-ignore-case on'
 
+eval "$(starship init bash)"
+
+# Execute only when ssh session
 if [ -n "$SSH_TTY" ]; then
-  eval "$(starship init bash)"
   echo && fortune && echo
 fi
