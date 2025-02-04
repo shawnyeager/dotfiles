@@ -7,6 +7,16 @@
 
 source ~/.local/share/omakub/defaults/bash/rc
 
+# yazi shell wrapper
+function y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+  yazi "$@" --cwd-file="$tmp"
+  if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+    builtin cd -- "$cwd"
+  fi
+  rm -f -- "$tmp"
+}
+
 # Editor used by CLI
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
@@ -26,7 +36,6 @@ export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
 
 # Paths
 PATH=$HOME/.local/bin:$PATH
-PATH=$HOME/.local/share/mise/installs/cargo-usage-cli/1.3.0/bin:$PATH
 
 # Aliases
 alias b='${(z)BROWSER}'
@@ -52,4 +61,9 @@ bind 'set completion-ignore-case on'
 if [ -n "$SSH_TTY" ]; then
   eval "$(starship init bash)"
   echo && fortune && echo
+fi
+
+# Override TERM if in ghostty and remote
+if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+  export TERM=xterm-256color
 fi
