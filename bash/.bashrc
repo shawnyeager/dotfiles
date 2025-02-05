@@ -57,9 +57,10 @@ source <(tailscale completion bash)
 # Ignore case when tab-completing
 bind 'set completion-ignore-case on'
 
+eval "$(starship init bash)"
+
 # Execute only when ssh session
 if [ -n "$SSH_TTY" ]; then
-  eval "$(starship init bash)"
   echo && fortune && echo
 fi
 
