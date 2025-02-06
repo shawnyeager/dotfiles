@@ -12,6 +12,12 @@ feeds:
       name: AP
     - url: https://www.nobsbitcoin.com/rss/
       name: NoBSB
+    - url: https://xkcd.com/atom.xml
+      name: xkcd
+    - url: http://feeds.feedburner.com/oatmealfeed
+      name: Oatmeal
+    - url: http://rss.slashdot.org/Slashdot/slashdot
+      name: Slashdot
 theme:
     glamour: dark
     titleColor: "170"
