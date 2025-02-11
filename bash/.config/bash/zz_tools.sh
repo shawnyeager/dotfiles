@@ -1,3 +1,5 @@
+# 'zz_tools.sh' to ensure activated last by .bashrc loop
+
 # Mise (tool version manager)
 if command -v mise &>/dev/null; then
   eval "$(mise activate bash)"
