@@ -54,10 +54,14 @@ alias colorize='ccze'
 # Tailscale completion
 source <(tailscale completion bash)
 
+# Television completion
+eval "$(tv init bash)"
+
+# Starship prompt
+eval "$(starship init bash)"
+
 # Ignore case when tab-completing
 bind 'set completion-ignore-case on'
-
-eval "$(starship init bash)"
 
 # Execute only when ssh session
 if [ -n "$SSH_TTY" ]; then
