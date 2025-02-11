@@ -1,13 +1,5 @@
-# .bash_profile
+# Source sensitive environment variables
+[ -f "$HOME/.bash_private" ] && source "$HOME/.bash_private"
 
-# Get sensitive env variables not managed in repo
-if [[ -f "$HOME/.bash_private" ]]; then
-  source "$HOME/.bash_private"
-fi
-
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
-
-# User specific environment and startup programs
+# Source main shell configuration
+[ -f "$HOME/.bashrc" ] && source "$HOME/.bashrc"
