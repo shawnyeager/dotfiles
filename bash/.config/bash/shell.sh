@@ -13,3 +13,6 @@ set +h
 
 # Set Omakub path
 export OMAKUB_PATH="$HOME/.local/share/omakub"
+
+# Enable case-insensitive globbing for `cd`
+shopt -s nocaseglob
