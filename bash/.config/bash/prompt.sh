@@ -1,3 +1,5 @@
+[[ -n "$BASH_VERSION" ]] || return 0 # Only run in Bash
+
 # Enable color prompt
 force_color_prompt=yes
 color_prompt=yes

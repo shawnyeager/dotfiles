@@ -1,3 +1,5 @@
+[[ -n "$BASH_VERSION" ]] || return 0 # Only run in Bash
+
 # Compress files into tar.gz
 compress() { tar -czf "${1%/}.tar.gz" "${1%/}"; }
 

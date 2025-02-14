@@ -1,3 +1,5 @@
+[[ -n "$BASH_VERSION" ]] || return 0 # Only run in Bash
+
 # Fortune message for SSH sessions
 if [ -n "$SSH_TTY" ]; then
   echo && fortune && echo

@@ -1,3 +1,5 @@
+[[ -n "$BASH_VERSION" ]] || return 0 # Only run in Bash
+
 # Mise (tool version manager)
 if command -v mise &>/dev/null; then
   eval "$(mise activate bash)"

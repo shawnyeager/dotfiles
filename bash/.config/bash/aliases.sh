@@ -1,3 +1,5 @@
+[[ -n "$BASH_VERSION" ]] || return 0 # Only run in Bash
+
 # File system
 alias ls='eza -lh --group-directories-first --icons'
 alias lsa='ls -a'

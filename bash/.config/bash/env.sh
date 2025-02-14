@@ -1,3 +1,5 @@
+[[ -n "$BASH_VERSION" ]] || return 0 # Only run in Bash
+
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 export PAGER="bat"
