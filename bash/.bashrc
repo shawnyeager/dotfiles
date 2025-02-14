@@ -1,7 +1,12 @@
-# Exit if not interactive
 [[ $- != *i* ]] && return
 
-# Source all scripts from ~/.config/bash in natural alphabetical order
+# Enable case-insensitive tab completion for `cd`
+bind 'set completion-ignore-case on'
+
+# Source all scripts except tools
 for file in ~/.config/bash/*.sh; do
-  [ -r "$file" ] && source "$file"
+  [[ "$file" != *"/zz_tools.sh" ]] && source "$file"
 done
+
+# Source tools last (Zoxide, etc.)
+source ~/.config/bash/zz_tools.sh

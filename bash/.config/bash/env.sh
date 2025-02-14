@@ -1,7 +1,6 @@
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 export PAGER="bat"
-export PATH="$HOME/.local/bin:$HOME/.local/share/omakub/bin:$PATH"
 export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
 
 # Catppuccin macchiato theme for fzf

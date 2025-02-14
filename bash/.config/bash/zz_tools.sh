@@ -1,5 +1,3 @@
-# 'zz_tools.sh' to ensure activated last by .bashrc loop
-
 # Mise (tool version manager)
 if command -v mise &>/dev/null; then
   eval "$(mise activate bash)"
@@ -11,7 +9,13 @@ if command -v fzf &>/dev/null; then
   source /usr/share/fzf/key-bindings.bash
 fi
 
-# Zoxide (smart `cd` alternative); moved to end to ensure it's initialized last
+# Tailscale completion
+source <(tailscale completion bash)
+
+# Television completion
+eval "$(tv init bash)"
+
+# Zoxide (smart `cd` alternative)
 if command -v zoxide &>/dev/null; then
   eval "$(zoxide init bash)"
 fi
