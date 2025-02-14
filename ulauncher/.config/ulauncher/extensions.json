@@ -26,5 +26,12 @@
         "updated_at": "2025-01-31T10:51:19.943647",
         "last_commit": "8c56e7ef9f48b10554bdca7fa3f2a067b186e1e3",
         "last_commit_time": "2024-08-09T13:37:14"
+    },
+    "com.github.mariob88.ulauncher-todoist-integration": {
+        "id": "com.github.mariob88.ulauncher-todoist-integration",
+        "url": "https://github.com/mariob88/ulauncher-todoist-integration",
+        "updated_at": "2025-02-14T15:46:32.195471",
+        "last_commit": "2196f5e964e874a46c9a336fdaea5db6eddcca61",
+        "last_commit_time": "2024-12-06T14:18:32"
     }
 }
