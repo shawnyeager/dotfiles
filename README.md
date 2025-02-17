@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles managed by [stow](phttps://www.gnu.org/software/stow/)
+My dotfiles, managed by [stow](https://www.gnu.org/software/stow/) and tuned for Arch Linux
