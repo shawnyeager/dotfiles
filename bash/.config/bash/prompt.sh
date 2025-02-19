@@ -8,5 +8,7 @@ color_prompt=yes
 PS1=$'\uf0a9 '
 PS1="\[\e]0;\w\a\]$PS1"
 
-# Starship prompt
-# eval "$(starship init bash)"
+# If an ssh session, use Starship prompt
+if [[ -n "$SSH_TTY" ]]; then
+  eval "$(starship init bash)"
+fi
