@@ -8,7 +8,7 @@ shopt -s nocaseglob
 
 [ -f /usr/share/bash-completion/bash_completion ] && source /usr/share/bash-completion/bash_completion
 
-export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omakub/bin:$PATH"
+export PATH="./bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.local/share/omakub/bin:$PATH"
 set +h
 
 export OMAKUB_PATH="$HOME/.local/share/omakub"
