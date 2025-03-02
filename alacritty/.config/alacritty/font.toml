@@ -1,4 +1,4 @@
 [font]
-normal = { family = "CaskaydiaCoveNerdFont", style = "Regular" }
-bold = { family = "CaskaydiaCoveNerdFont", style = "Bold" }
-italic = { family = "CaskaydiaCoveNerdFont", style = "Italic" }
+normal = { family = "Adwaita Mono", style = "Regular" }
+bold = { family = "Adwaita Mono", style = "Bold" }
+italic = { family = "Adwaita Mono", style = "Italic" }
