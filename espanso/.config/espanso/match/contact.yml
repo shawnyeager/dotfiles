@@ -3,8 +3,8 @@ matches:
 # Email addresses
 - trigger: ":eml"
   replace: "shawn@shawnyeager.com"
-- trigger: ":weml"
-  replace: "shawn@bitvora.com"
+- trigger: ":treml"
+  replace: "shawn@trustrevolution.co"
 
 # Addresses
 - trigger: ":home"
@@ -29,3 +29,7 @@ matches:
     Shawn
     
     shawnyeager.com/connect
+
+# nostr
+- trigger: ":npub"
+  replace: "npub1clk6vc9xhjp8q5cws262wuf2eh4zuvwupft03hy4ttqqnm7e0jrq3upup9"
