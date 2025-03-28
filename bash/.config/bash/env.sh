@@ -3,7 +3,6 @@
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 export PAGER="bat"
-export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
 
 # Catppuccin macchiato theme for fzf
 export FZF_DEFAULT_OPTS=" \
