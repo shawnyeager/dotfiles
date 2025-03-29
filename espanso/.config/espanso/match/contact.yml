@@ -33,3 +33,8 @@ matches:
 # nostr
 - trigger: ":npub"
   replace: "npub1clk6vc9xhjp8q5cws262wuf2eh4zuvwupft03hy4ttqqnm7e0jrq3upup9"
+
+# linkedin
+- trigger: ":lli"
+  replace: "https://linkedin.com/in/shawnyeager"
+    
