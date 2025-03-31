@@ -5,9 +5,10 @@
   "WINDOW_BOUNDS": {
     "x": 0,
     "y": 0,
-    "width": 940,
+    "width": 1028,
     "height": 1044
   },
   "SKIP_HOST_UPDATE": true,
-  "BACKGROUND_COLOR": "#121214"
+  "BACKGROUND_COLOR": "#121214",
+  "MINIMIZE_TO_TRAY": false
 }
