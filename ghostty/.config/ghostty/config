@@ -12,7 +12,7 @@ background-blur-radius = 20
 
 unfocused-split-opacity = 0.80
 
-font-family = CaskaydiaCoveNerdFont 
+font-family = Adwaita Mono 
 font-size = 11
 
 gtk-titlebar = false
