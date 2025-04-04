@@ -1,0 +1,4 @@
+address ircs://irc.pico.sh:6697
+nickname shawny 
+password-cmd pass pico.sh/token/1 
+tls true
