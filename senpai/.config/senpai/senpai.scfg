@@ -1,4 +1,17 @@
 address ircs://irc.pico.sh:6697
 nickname shawny 
+realname "Shawn"
 password-cmd pass pico.sh/token/1 
 tls true
+
+colors {
+    prompt #94e2d5
+    unread #a6e3a1
+    status #cba6f7
+    nicks base
+    nicks self #f5c2e7
+}
+
+pane-widths {
+    channels 20
+}
