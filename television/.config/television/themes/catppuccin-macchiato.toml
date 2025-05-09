@@ -1,0 +1,25 @@
+# general
+background = '#24273A' # Base: Dark, neutral background for the UI
+border_fg = '#5B6078' # Overlay1: Slightly lighter than Overlay0 for subtle borders
+text_fg = '#CAD3F5' # Text: High-contrast, readable primary text
+dimmed_text_fg = '#8087A2' # Overlay2: Softer gray for secondary text
+
+# input
+input_text_fg = '#F4DBD6' # Rosewater: Bright, warm color for active input text
+result_count_fg = '#EED49F' # Yellow: Soft, noticeable color for result counts
+
+# results
+result_name_fg = '#8AADF4' # Blue: Calm and clear for result names
+result_line_number_fg = '#6E738D' # Overlay0: Muted for less prominent line numbers
+result_value_fg = '#B8C0E0' # Subtext1: Lighter gray for result details
+selection_fg = '#F4DBD6' # Rosewater: Bright and distinct for selected text
+selection_bg = '#494D64' # Surface1: Mid-tone background for better selection contrast
+match_fg = '#F5A97F' # Peach: Warm and attention-grabbing for matches
+
+# preview
+preview_title_fg = '#F5BDE6' # Pink: Vibrant and unique for preview titles
+
+# modes
+channel_mode_fg = '#A6DA95' # Green: Fresh and active for channel mode
+remote_control_mode_fg = '#8BD5CA' # Teal: Cool and distinct for remote control
+send_to_channel_mode_fg = '#F5A97F' # Peach: Warm and action-oriented for send mode
