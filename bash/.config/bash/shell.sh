@@ -11,4 +11,6 @@ shopt -s nocaseglob
 export PATH="./bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.local/share/omakub/bin:$PATH"
 set +h
 
+export PATH="$HOME/.zapstore:$PATH" # add zapstore
+
 export OMAKUB_PATH="$HOME/.local/share/omakub"
