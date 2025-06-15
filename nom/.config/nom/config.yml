@@ -8,8 +8,8 @@ feeds:
       name: LWN
     - url: https://feeds.feedburner.com/codinghorror
       name: Coding Horror
-    - url: https://feedx.net/rss/ap.xml
-      name: AP
+    - url: https://news.google.com/rss/search?q=site%3Areuters.com&hl=en-US&gl=US&ceid=US%3Aen 
+      name: Reuters
     - url: https://www.nobsbitcoin.com/rss/
       name: NoBSB
     - url: https://xkcd.com/atom.xml
