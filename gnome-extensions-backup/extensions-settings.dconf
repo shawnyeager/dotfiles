@@ -2,7 +2,7 @@
 folder-order-position='end'
 
 [app-hider]
-hidden-apps=['bssh.desktop', 'bvnc.desktop', 'avahi-discover.desktop', 'electron32.desktop', 'lstopo.desktop', 'cmake-gui.desktop', 'qv4l2.desktop', 'qvidcap.desktop', 'vim.desktop', 'zellij.desktop', 'picom.desktop', 'xonotic-glx.desktop', 'Steam Linux Runtime 1.0 (scout).desktop', 'Steam Linux Runtime 2.0 (soldier).desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Proton Experimental.desktop', 'org.freedesktop.MalcontentControl.desktop', 'nvim.desktop', 'amdgpu_top-tui.desktop', 'nvtop.desktop', 'Proton Hotfix.desktop', 'electron33.desktop', 'yelp.desktop', 'org.gnome.Extensions.desktop', 'isd.desktop', 'wine-Programs-Starcraft-Starcraft Readme.desktop', 'wine-Programs-Starcraft-Uninstall Starcraft.desktop', 'wine-Programs-Starcraft-Starcraft Help.desktop', 'electron34.desktop', 'btop.desktop', 'appimagelaunchersettings.desktop']
+hidden-apps=['bssh.desktop', 'bvnc.desktop', 'avahi-discover.desktop', 'electron32.desktop', 'lstopo.desktop', 'cmake-gui.desktop', 'qv4l2.desktop', 'qvidcap.desktop', 'vim.desktop', 'zellij.desktop', 'picom.desktop', 'xonotic-glx.desktop', 'Steam Linux Runtime 1.0 (scout).desktop', 'Steam Linux Runtime 2.0 (soldier).desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Proton Experimental.desktop', 'org.freedesktop.MalcontentControl.desktop', 'nvim.desktop', 'amdgpu_top-tui.desktop', 'nvtop.desktop', 'Proton Hotfix.desktop', 'electron33.desktop', 'yelp.desktop', 'org.gnome.Extensions.desktop', 'isd.desktop', 'wine-Programs-Starcraft-Starcraft Readme.desktop', 'wine-Programs-Starcraft-Uninstall Starcraft.desktop', 'wine-Programs-Starcraft-Starcraft Help.desktop', 'electron34.desktop', 'btop.desktop', 'appimagelaunchersettings.desktop', 'htop.desktop', 'electron35.desktop', 'electron36.desktop', 'fluid.desktop']
 
 [arch-update]
 always-visible=false
@@ -91,15 +91,16 @@ enable-move-to-workspace-shortcuts=true
 open-menu=@as []
 
 [space-bar/state]
-version=32
+version=33
 
 [switcher]
 activate-after-ms=uint32 100
 activate-by-key=uint32 2
 fade-enable=false
-icon-size=uint32 31
-launcher-stats='{"org.gnome.Settings.desktop":1,"org.gnome.Extensions.desktop":1,"com.mattjakeman.ExtensionManager.desktop":1,"org.gnome.Weather.desktop":1}'
-max-width-percentage=uint32 41
+font-size=uint32 24
+icon-size=uint32 24
+launcher-stats='{"org.gnome.Settings.desktop":1,"org.gnome.Extensions.desktop":5,"com.mattjakeman.ExtensionManager.desktop":4,"org.gnome.Weather.desktop":1,"hu.irl.cameractrls.desktop":4,"gnome-search-panel.desktop":1,"DOOM.desktop":6,"org.gnome.tweaks.desktop":1,"page.tesk.Refine.desktop":1,"org.gnome.TextEditor.desktop":1,"DOOM Eternal.desktop":6,"steam.desktop":3,"gnome-wellbeing-panel.desktop":1,"xonotic-sdl.desktop":1,"xpipe.desktop":1,"blueman-manager.desktop":1,"gnome-display-panel.desktop":1,"app.devsuite.Ptyxis.desktop":1,"org.gnome.DiskUtility.desktop":1,"electron34.desktop":1,"bitwarden.desktop":1,"org.keepassxc.KeePassXC.desktop":1}'
+max-width-percentage=uint32 40
 show-switcher=['<Super>space']
 workspace-indicator=false
 
@@ -109,7 +110,12 @@ col-1=2
 col-2=1
 col-3=0
 gap-size=32
-monitor-0-layout=3
+layout-3-col-0=2
+layout-3-col-1=1
+layout-3-col-2=1
+layout-3-col-3=2
+layout-3-row-2=1
+monitor-0-layout=2
 monitor-1-layout=2
 row-0=1
 row-1=1
@@ -135,4 +141,4 @@ show-net=false
 use-system-accent=false
 
 [user-theme]
-name='Yaru-magenta-dark'
+name='Yaru-dark'
