@@ -1,0 +1,6 @@
+matches:
+
+# Email 
+- trigger: ":trinvite"
+  replace: "Invitation to join Trust Revolution podcast"
+
