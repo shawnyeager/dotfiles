@@ -15,7 +15,7 @@ fi
 source <(tailscale completion bash)
 
 # Television completion
-eval "$(tv init bash)"
+# eval "$(tv init bash)"
 
 # Zoxide (smart `cd` alternative) - must be last
 if command -v zoxide &>/dev/null; then
