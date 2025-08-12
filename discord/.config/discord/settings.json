@@ -11,5 +11,5 @@
   "SKIP_HOST_UPDATE": true,
   "BACKGROUND_COLOR": "#121214",
   "MINIMIZE_TO_TRAY": false,
-  "offloadAdmControls": false
+  "offloadAdmControls": true
 }
