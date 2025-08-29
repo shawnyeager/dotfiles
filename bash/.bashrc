@@ -16,6 +16,7 @@ source ~/.local/share/omarchy/default/bash/rc
 # Source sensitive environment variables
 [ -f "$HOME/.bash_private" ] && source "$HOME/.bash_private"
 
+alias du='ncdu'
 alias ncdu='ncdu --color dark'
 alias vim='nvim'
 alias duf='duf --hide special'
