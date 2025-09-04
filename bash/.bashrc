@@ -1,25 +1,24 @@
-# ~/.bashrc
+# All the default Omarchy aliases and functions
+# (don't mess with these directly, just overwrite them here!)
+source ~/.local/share/omarchy/default/bash/rc
 
-# Ensure this is an interactive shell
-[[ $- != *i* ]] && return
+# Add your own exports, aliases, and functions here.
+#
+# Make an alias for invoking commands you use constantly
+# alias p='python'
+#
+# Use VSCode instead of neovim as your default editor
+# export EDITOR="code"
+#
+# Set a custom prompt with the directory revealed (alternatively use https://starship.rs)
+# PS1="\W \[\e]0;\w\a\]$PS1"
 
-# Load essential environment variables first
-source ~/.config/bash/env.sh
+# Source sensitive environment variables
+[ -f "$HOME/.bash_private" ] && source "$HOME/.bash_private"
 
-# Load shell functions and utilities
-source ~/.config/bash/functions.sh
+alias du='ncdu'
+alias ncdu='ncdu --color dark'
+alias vim='nvim'
+alias duf='duf --hide special'
 
-# Load aliases next
-source ~/.config/bash/aliases.sh
-
-# Load command completions (only needed for interactive use)
-source ~/.config/bash/completions.sh
-
-# Load prompt customization
-source ~/.config/bash/prompt.sh
-
-# Load other shell settings
-source ~/.config/bash/shell.sh
-
-# Finally, load zz_tools.sh (Zoxide and similar tools must be last)
-source ~/.config/bash/zz_tools.sh
+export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
