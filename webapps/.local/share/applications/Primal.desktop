@@ -2,7 +2,7 @@
 Version=1.0
 Name=Primal
 Comment=Primal
-Exec=omarchy-launch-webapp https://primal.net
+Exec=omarchy-launch-webapp https://primal.net/home
 Terminal=false
 Type=Application
 Icon=/home/shawn/.local/share/applications/icons/Primal.png
