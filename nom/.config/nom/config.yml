@@ -18,6 +18,8 @@ feeds:
       name: Oatmeal
     - url: http://rss.slashdot.org/Slashdot/slashdot
       name: Slashdot
+    - url: https://xn--gckvb8fzb.com/index.xml
+      name: マリウス
 theme:
     glamour: dark
     titleColor: "170"
