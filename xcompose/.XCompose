@@ -1,0 +1,12 @@
+include "%H/.local/share/omarchy/default/xcompose"
+
+# Identification
+<Multi_key> <space> <n> : "Shawn Yeager"
+<Multi_key> <space> <e> : "shawn@shawnyeager.com"
+
+# Addresses
+<Multi_key> <space> <o> : "1910 21st Ave S Nashville TN 37212"
+<Multi_key> <space> <h> : "527 Skyview Dr Nashville TN 37206"
+
+# Encryption and signing keys
+<Multi_key> <n> <p> <u> <b> : "npub1clk6vc9xhjp8q5cws262wuf2eh4zuvwupft03hy4ttqqnm7e0jrq3upup9"
