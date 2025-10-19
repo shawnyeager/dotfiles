@@ -22,3 +22,4 @@ alias vim='nvim'
 alias duf='duf --hide special'
 
 export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
+export HUGO_MODULE_WORKSPACE=/home/shawn/Work/hugo.work
