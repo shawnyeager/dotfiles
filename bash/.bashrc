@@ -1,3 +1,6 @@
+# If not running interactively, don't do anything (leave this at the top of this file)
+[[ $- != *i* ]] && return
+
 # All the default Omarchy aliases and functions
 # (don't mess with these directly, just overwrite them here!)
 source ~/.local/share/omarchy/default/bash/rc
@@ -16,10 +19,11 @@ source ~/.local/share/omarchy/default/bash/rc
 # Source sensitive environment variables
 [ -f "$HOME/.bash_private" ] && source "$HOME/.bash_private"
 
+export PATH=$HOME/.local/bin:$PATH
+export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
+export HUGO_MODULE_WORKSPACE=/home/shawn/Work/hugo.work
+
 alias du='ncdu'
 alias ncdu='ncdu --color dark'
 alias vim='nvim'
 alias duf='duf --hide special'
-
-export SSH_AUTH_SOCK=/home/shawn/.bitwarden-ssh-agent.sock
-export HUGO_MODULE_WORKSPACE=/home/shawn/Work/hugo.work
